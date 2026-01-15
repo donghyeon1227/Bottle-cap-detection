@@ -106,4 +106,10 @@
 | NG_STICKER | 스티커 부착/잔여물 판정 |
 
 ---
+## 7) GUI 구성
+<p align="center">
+  <img src="자료 이미지/capture_260115_164614.png" width="800" alt="System Overview">
+</p>
+
+---
 
