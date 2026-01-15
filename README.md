@@ -1,6 +1,6 @@
-<img width="1260" height="891" alt="Image" src="https://github.com/user-attachments/assets/600a07b7-64cd-4822-b122-ef01c0ea5cd6" />
 
-# Intel Geti + AI QC Conveyor
+
+# OpenVINO 기반 공장 컨베이어 자동화 시스템
 인텔 Geti + 인공지능 QC 컨베이어
 
 
