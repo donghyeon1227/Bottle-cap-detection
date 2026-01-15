@@ -65,14 +65,17 @@
 6. **최종 판정(OK / NG30 / NG80 / NO_CAP / NG_STICKER)**
 7. **결과 저장(이미지/CSV/DB 옵션) + 장비 제어(액추에이터/비콘/부저)**
 
-> 아래 이미지/도식은 프로젝트 폴더 경로에 맞게 수정해서 넣어주세요.
+
 <p align="center">
-  <img src="doc/Team2_1Pager.png" width="900" alt="System Overview">
+  <img src="자료 이미지/capture_260115_164513.png" width="900" alt="System Overview">
 </p>
 
 ---
 
 ## 5) Detection + Segmentation을 함께 쓴 이유
+<p align="center">
+  <img src="자료 이미지/capture_260115_164552.png" width="900" alt="System Overview">
+</p>
 ### ✅ Detection(객체 탐지)을 쓰는 이유
 - 캡이 **화면 어디에 위치하든 ROI(검사 영역)를 안정적으로 확보**할 수 있음
 - **캡 없음(NO_CAP)** / **스티커 부착 후보(Sticker)** 같은 “객체 단위 판단”에 강함
@@ -84,6 +87,9 @@
   → **오염 면적 비율(stain ratio)** 을 계산할 수 있어 **정량 기준(예: 30%, 80%) 등급화**가 가능
 
 ### ✅ 결론: 둘을 합치면?
+<p align="center">
+  <img src="자료 이미지/capture_260115_164625.png" width="600" alt="System Overview">
+</p>
 - Detection으로 “어디를 검사할지(캡 위치)” 잡고  
 - Segmentation으로 “얼마나 오염됐는지(픽셀 비율)”를 계산  
 → 현장 QC에서 요구하는 **정량 판정 + 안정적인 ROI**를 동시에 만족합니다.
